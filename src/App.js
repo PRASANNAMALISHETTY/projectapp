@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import ProductList from './components/ProductList/ProductList';
 import Cart from './components/Cart/Cart';
-
+import '../src/App.css'
 const App = () => {
   const [products] = useState([
     { id: 1, name: 'Product 1', price: 20, image: 'image1.jpg' },
